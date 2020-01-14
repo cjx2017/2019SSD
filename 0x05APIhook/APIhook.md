@@ -27,12 +27,12 @@
 
 
 ## 二、实验内容
-### 1.向一个notepad.exe注入一个自行编写的dll
-* 修改baselib.c文件，当运行notepad.exe时运行.dll文件中编写的dll main，跳出loaded窗口  
-![](pic/DllMain.png)   
-![](pic/dll注入1.png)  
-![](pic/dll注入2.png)  
-![](pic/dllinject.png)
+* 向一个notepad.exe注入一个自行编写的dll
+    * 修改baselib.c文件，当运行notepad.exe时运行.dll文件中编写的dll main，跳出loaded窗口   
+        ![](pic/DllMain.png)   
+        ![](pic/dll注入1.png)  
+        ![](pic/dll注入2.png)  
+        ![](pic/dllinject.png)
 * 注意：
     * baselib.dll文件需要放在..\dllinject文件夹下(与.c文件在同一目录下)  
     * 打开的notepad.exe应该是在```C:\Windows\SysWOW64```目录下的exe文件  
